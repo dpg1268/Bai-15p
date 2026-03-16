@@ -29,6 +29,7 @@ body{
 
 .left img{
     width:100%;
+        background:#f6e27a;
 }
 
 .right{
