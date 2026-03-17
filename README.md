@@ -65,6 +65,7 @@ body{
 
 .left{
     width:40%;
+    background:#f6e27a;
 }
 
 .left img{
@@ -119,7 +120,6 @@ body{
     display:flex;
     justify-content:center;
     gap:10px;
-    background:#f6e27a;
 }
 .video{
     text-align:center;
