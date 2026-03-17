@@ -278,9 +278,9 @@ allowfullscreen>
 <p>26/03/1931</p>
 
 <p>Ý nghĩa</p>
-<p>Giáo dục và phát triển thanh niên Việt Nam</p>
+<p>- Giáo dục và phát triển thanh niên Việt Nam</p>
 
-<p> Hoạt động</p>
+<p>Hoạt động</p>
 <p>• Văn nghệ</p>
 <p>• Thể thao</p>
 <p>• Sinh hoạt đoàn</p>
