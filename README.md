@@ -10,7 +10,13 @@ body{
     display:flex;
     justify-content:center;
 }
-
+    .layout{
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    gap:20px;
+    padding:20px;
+}
 /* khung chính */
 .container{
     width:1550px;
@@ -195,6 +201,7 @@ function moBox(){
     document.getElementById("openBtn").style.display="none";
 }
 </script>
+<div class="layout">
 <div class="container">
 <div class="im">
 <img src="https://toplist.vn/images/800px/tu-hao-doan-thanh-nien-127778.jpg">
@@ -282,4 +289,5 @@ Thông qua các hoạt động kỷ niệm, phong trào thanh niên ngày càng 
 </div>
 <button class="open-btn" id="openBtn" onclick="moBox()">Mở</button>
 
+</div>
 </div>
