@@ -125,6 +125,14 @@ body{
     text-align:center;
     margin-top:20px;
 }
+  .t{
+    margin-top:10px;
+    font-size:25px;
+    color:#c0392b;
+    line-height:0.2;
+    font-weight:bold;
+    text-align: left;
+}  
 </style>
 </head>
 
@@ -186,5 +194,12 @@ frameborder="0"
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen>
 </iframe>
+</div>
+<hr>
+<div class="t">
+    <p>THPT Ea Súp</p>
+    <p>Chi đoàn 12A1</p>
+    <p>Nhóm 1</p>
+    <p>Người làm: Đức Phong</p>
 </div>
 </div>
