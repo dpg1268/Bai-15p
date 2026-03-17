@@ -11,6 +11,7 @@ body{
     justify-content:center;
 }
     .layout{
+        width:1550px;
     display:flex;
     justify-content:center;
     align-items:flex-start;
