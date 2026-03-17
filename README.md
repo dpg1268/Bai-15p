@@ -161,7 +161,7 @@ body{
     margin-top:10px;
     font-size:25px;
     color:#c0392b;
-    line-height:0.2;
+    line-height:0.4;
     font-weight:bold;
     text-align: left;
 }
