@@ -65,7 +65,7 @@ body{
 
 .left{
     width:40%;
-    background:#f6e27a;
+    background:#fff8c6;
 }
 
 .left img{
@@ -133,8 +133,7 @@ body{
 <div class="im">
 <img src="https://toplist.vn/images/800px/tu-hao-doan-thanh-nien-127778.jpg">
 </div>
-
-<div class="marquee">
+    <div class="marquee">
 <p>CHÀO MỪNG NGÀY THÀNH LẬP ĐOÀN THANH NIÊN CỘNG SẢN HỒ CHÍ MINH 26/03</p>
 </div>
 
