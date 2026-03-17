@@ -112,7 +112,7 @@ body{
 }
 
 .img img{
-    width:75%;
+    width:70%;
 }
 .im{
     text-align:center;
