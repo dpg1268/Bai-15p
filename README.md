@@ -12,7 +12,7 @@ body{
 
 /* khung chính */
 .container{
-    width:1000px;
+    width:1500px;
     margin:auto;
     padding:40px 40px 0 40px; /* bỏ khoảng cách phía dưới */
 }
