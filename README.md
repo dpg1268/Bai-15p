@@ -84,24 +84,34 @@ body{
     line-height:1.6;
 
 }
+    margin-top:20px;
+}
+
+.img img{
+    width:75%;
+}
+.im{
+    text-align:center;
+    display:flex;
+    justify-content:center;
+    gap:10px;
+}
+.video{
+    text-align:center;
+    margin-top:20px;
+
 </style>
 </head>
 
 <body>
-
+<div class="container">
 <div class="im">
 <img src="https://toplist.vn/images/800px/tu-hao-doan-thanh-nien-127778.jpg">
 </div>
- <header>
-            <div style="background-color: #f6e27a; border: 1px solid #ccc; padding: 5px;">
-    <marquee behavior="scroll" direction="left" scrollamount="5">
-        <span style="color: red; font-weight: bold; font-size: 18px;">
-            CHÀO MỪNG NGÀY THÀNH LẬP ĐOÀN THANH NIÊN CỘNG SẢN HỒ CHÍ MINH 26/03
-        </span>
-    </marquee>
+
+<div class="marquee">
+<p>CHÀO MỪNG NGÀY THÀNH LẬP ĐOÀN THANH NIÊN CỘNG SẢN HỒ CHÍ MINH 26/03</p>
 </div>
-</header>
-<div class="container">
 
 <div class="header">
 
