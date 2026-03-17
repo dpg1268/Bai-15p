@@ -202,8 +202,8 @@ function moBox(){
     document.getElementById("openBtn").style.display="none";
 }
 </script>
-<div class="layout">
 <div class="container">
+    <div class="layout">
 <div class="im">
 <img src="https://toplist.vn/images/800px/tu-hao-doan-thanh-nien-127778.jpg">
 </div>
