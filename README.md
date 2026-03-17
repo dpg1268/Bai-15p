@@ -20,7 +20,7 @@ body{
     box-shadow:0 0 15px rgba(0,0,0,0.2); /* đổ bóng */
 }
 .sidebar{
-    width:260px;
+    width:400px;
     border:3px solid red;
     border-radius:10px;
     background:#fff8c6;
@@ -30,6 +30,7 @@ body{
     position:fixed;
     bottom:20px;
     right:20px;
+    font-weight:bold;
 }
     
 .sidebar h3{
@@ -262,10 +263,10 @@ allowfullscreen>
 
 <h3>Một Số thông Tin cơ bản</h3>
 
-<p>📅 Ngày thành lập</p>
+<p>Ngày thành lập</p>
 <p>26/03/1931</p>
 
-<p>⭐ Ý nghĩa</p>
+<p>Ý nghĩa</p>
 <p>Giáo dục và phát triển thanh niên Việt Nam</p>
 
 <p> Hoạt động</p>
