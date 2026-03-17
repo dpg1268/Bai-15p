@@ -156,7 +156,7 @@ body{
 /* thông tin cuối */
 .t{
     margin-top:10px;
-    font-size:25px;
+    font-size:20px;
     color:#c0392b;
     line-height:0.4;
     font-weight:bold;
