@@ -58,13 +58,34 @@ body{
     line-height:1.6;
     font-weight:bold;
 }
+    .marquee{
+    width:100%;
+    overflow:hidden;
+    border:1px solid #ccc;
+    background:#f6e27a;
+    margin-top:10px;
+}
 
-/* logo trên cùng */
+.marquee p{
+    display:inline-block;
+    white-space:nowrap;
+    animation:chaychu 12s linear infinite;
+    font-size:18px;
+    font-weight:bold;
+    color:red;
+}
+
+@keyframes chaychu{
+    from{
+        transform:translateX(100%);
+    }
+    to{
+        transform:translateX(-100%);
+    }
+}
 .im{
     text-align:center;
 }
-
-/* hoa hướng dương */
 .footer{
     width:100%;
     margin-top:20px;
@@ -99,7 +120,7 @@ body{
 .video{
     text-align:center;
     margin-top:20px;
-
+}
 </style>
 </head>
 
