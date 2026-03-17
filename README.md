@@ -142,4 +142,25 @@ Ngày nay, thanh niên tiếp tục phát huy tinh thần năng động, sáng t
     
 </div>
 </div>
+<hr>
+<div class="text" style="text-align: center;">
+    <h2>Một Số bức ảnh tiêu biểu</h2>
+</div>
+<div class="im">
+<img src="https://daknong.1cdn.vn/2024/03/20/storage-vnportal.vnpt.vn-ndh-ubnd-4930-tn1882022-_ngay-thanh-lap-doan-9.jpg">
+<img src="https://daknong.1cdn.vn/2024/03/22/phuong3.tayninh.gov.vn-uploads-news-2022_11-_pano-co-dong-ngay-30-2.jpg">
+</div>
+<hr>
+<div class="text" style="text-align: center;">
+  <h2>Video nói về ngày thành lập đoàn thanh niên</h2>
+</div>
+<div class="video">
+<iframe width="700" height="400"
+src="https://www.youtube.com/embed/Kui4Tt7lbE0"
+title="95 năm thành lập Đoàn thanh niên"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen>
+</iframe>
+</div>
 </div>
