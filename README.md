@@ -19,6 +19,28 @@ body{
     background:#fff8c6;          /* nền bên trong */
     box-shadow:0 0 15px rgba(0,0,0,0.2); /* đổ bóng */
 }
+.sidebar{
+    width:260px;
+    border:3px solid red;
+    border-radius:10px;
+    background:#fff8c6;
+    padding:15px;
+    box-shadow:0 0 10px rgba(0,0,0,0.3);
+
+    position:fixed;
+    bottom:20px;
+    right:20px;
+}
+    
+.sidebar h3{
+    text-align:center;
+    color:red;
+}
+
+.sidebar p{
+    font-size:16px;
+    margin:10px 0;
+}
 
 /* logo trên cùng */
 .im{
@@ -132,11 +154,44 @@ body{
     line-height:0.2;
     font-weight:bold;
     text-align: left;
-}  
+}
+    .close-btn{
+  position:absolute;
+    top:5px;
+    right:8px;
+    border:none;
+    background:red;
+    color:white;
+    font-weight:bold;
+    cursor:pointer;
+}
+.open-btn{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    padding:10px 15px;
+    background:red;
+    color:white;
+    border:none;
+    border-radius:6px;
+    cursor:pointer;
+    display:none;
+}
 </style>
 </head>
 
 <body>
+    <script>
+function dongBox(){
+    document.getElementById("sidebar").style.display="none";
+    document.getElementById("openBtn").style.display="block";
+}
+
+function moBox(){
+    document.getElementById("sidebar").style.display="block";
+    document.getElementById("openBtn").style.display="none";
+}
+</script>
 <div class="container">
 <div class="im">
 <img src="https://toplist.vn/images/800px/tu-hao-doan-thanh-nien-127778.jpg">
@@ -202,4 +257,26 @@ allowfullscreen>
     <p>Nhóm 1</p>
     <p>Người làm: Đức Phong</p>
 </div>
+<div class="sidebar" id="sidebar">
+    <button class="close-btn" onclick="dongBox()">✖</button>
+
+<h3>Một Số thông Tin cơ bản</h3>
+
+<p>📅 Ngày thành lập</p>
+<p>26/03/1931</p>
+
+<p>⭐ Ý nghĩa</p>
+<p>Giáo dục và phát triển thanh niên Việt Nam</p>
+
+<p> Hoạt động</p>
+<p>• Văn nghệ</p>
+<p>• Thể thao</p>
+<p>• Sinh hoạt đoàn</p>
+<p>•Ngày 26/03 hằng năm là dịp để thanh niên cả nước ôn lại truyền thống vẻ vang của Đoàn Thanh niên Cộng sản Hồ Chí Minh.
+Thông qua các hoạt động kỷ niệm, phong trào thanh niên ngày càng phát triển mạnh mẽ và thu hút nhiều đoàn viên tham gia.
+</p>
+
+</div>
+<button class="open-btn" id="openBtn" onclick="moBox()">Mở</button>
+
 </div>
