@@ -284,6 +284,7 @@ allowfullscreen>
 <p>• Văn nghệ</p>
 <p>• Thể thao</p>
 <p>• Sinh hoạt đoàn</p>
+<p>Kết quả</p>
 <p>•Ngày 26/03 hằng năm là dịp để thanh niên cả nước ôn lại truyền thống vẻ vang của Đoàn Thanh niên Cộng sản Hồ Chí Minh.
 Thông qua các hoạt động kỷ niệm, phong trào thanh niên ngày càng phát triển mạnh mẽ và thu hút nhiều đoàn viên tham gia.
 </p>
