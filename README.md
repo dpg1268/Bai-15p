@@ -7,12 +7,14 @@ body{
     margin:0;
     font-family: Arial, sans-serif;
     background:#f6e27a;
+    display:flex;
+    justify-content:center;
 }
 
 /* khung chính */
 .container{
     width:1550px;
-    margin:auto;
+    margin:0 auto;
     padding:40px 40px 20px 40px;
     border:4px solid red;        /* viền khung */
     border-radius:10px;          /* bo góc */
