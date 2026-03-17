@@ -65,7 +65,7 @@ body{
 
 .left{
     width:40%;
-    background:#fff8c6;
+     background:#fff8c6;
 }
 
 .left img{
@@ -140,7 +140,7 @@ body{
 <div class="header">
 
 <div class="left">
-<img src="https://i.postimg.cc/8c7cymDh/073bd793-c513-4a28-a956-ad8eeed2a0fa.png">
+<img src="https://s.yimg.com/zb/imgv1/8b3c733b-4f67-3258-9d7b-1547f274efba/t_500x300">
 </div>
 
 <div class="right">
