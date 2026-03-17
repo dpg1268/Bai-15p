@@ -16,7 +16,8 @@ body{
     justify-content:center;
     align-items:flex-start;
     gap:20px;
-    padding:20px;
+    margin:0 auto;
+    padding:40px 40px 20px 40px;
 }
 /* khung chính */
 .container{
@@ -202,8 +203,8 @@ function moBox(){
     document.getElementById("openBtn").style.display="none";
 }
 </script>
+<div class="layout">
 <div class="container">
-    <div class="layout">
 <div class="im">
 <img src="https://toplist.vn/images/800px/tu-hao-doan-thanh-nien-127778.jpg">
 </div>
