@@ -3,34 +3,34 @@
 <title>Kỷ niệm 26/3</title>
 
 <style>
+
 body{
     margin:0;
     font-family: Arial, sans-serif;
     background:#f6e27a;
-    display:flex;
-    justify-content:center;
 }
-    .layout{
-        width:1550px;
-    display:flex;
-    justify-content:center;
-    align-items:flex-start;
-    gap:20px;
-    margin:0 auto;
-    padding:40px 40px 20px 40px;
+
+/* bố cục toàn trang */
+.layout{
+    width:100%;
 }
+
 /* khung chính */
 .container{
-    width:1550px;
-    margin:0 auto;
-    padding:40px 40px 20px 40px;
-    border:4px solid red;        /* viền khung */
-    border-radius:10px;          /* bo góc */
-    background:#fff8c6;          /* nền bên trong */
-    box-shadow:0 0 15px rgba(0,0,0,0.2); /* đổ bóng */
+    max-width:1100px;
+    width:90%;
+    margin:40px auto;
+    padding:40px;
+
+    border:4px solid red;
+    border-radius:10px;
+    background:#fff8c6;
+    box-shadow:0 0 15px rgba(0,0,0,0.2);
 }
+
+/* box bên phải */
 .sidebar{
-    width:400px;
+    width:320px;
     border:3px solid red;
     border-radius:10px;
     background:#fff8c6;
@@ -42,7 +42,7 @@ body{
     right:20px;
     font-weight:bold;
 }
-    
+
 .sidebar h3{
     text-align:center;
     color:red;
@@ -53,13 +53,14 @@ body{
     margin:10px 0;
 }
 
-/* logo trên cùng */
+/* logo */
 .im{
     text-align:center;
 }
 
 .im img{
-    width:750px;
+    max-width:750px;
+    width:100%;
 }
 
 /* chữ chạy */
@@ -81,12 +82,8 @@ body{
 }
 
 @keyframes chaychu{
-    from{
-        transform:translateX(100%);
-    }
-    to{
-        transform:translateX(-100%);
-    }
+    from{transform:translateX(100%);}
+    to{transform:translateX(-100%);}
 }
 
 /* phần đầu */
@@ -98,7 +95,6 @@ body{
 
 .left{
     width:40%;
-     background:#fff8c6;
 }
 
 .left img{
@@ -140,34 +136,35 @@ body{
     line-height:1.6;
 }
 
-.img{
 /* ảnh dưới */
-    margin-top:20px;
-}
-
-.img img{
-    width:70%;
-}
 .im{
-    text-align:center;
     display:flex;
     justify-content:center;
     gap:10px;
 }
+
+.im img{
+    width:48%;
+}
+
+/* video */
 .video{
     text-align:center;
     margin-top:20px;
 }
-  .t{
+
+/* thông tin cuối */
+.t{
     margin-top:10px;
     font-size:25px;
     color:#c0392b;
     line-height:0.4;
     font-weight:bold;
-    text-align: left;
 }
-    .close-btn{
-  position:absolute;
+
+/* nút đóng */
+.close-btn{
+    position:absolute;
     top:5px;
     right:8px;
     border:none;
@@ -176,6 +173,8 @@ body{
     font-weight:bold;
     cursor:pointer;
 }
+
+/* nút mở */
 .open-btn{
     position:fixed;
     bottom:20px;
@@ -188,6 +187,7 @@ body{
     cursor:pointer;
     display:none;
 }
+
 </style>
 </head>
 
