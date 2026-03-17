@@ -3,7 +3,6 @@
 <title>Kỷ niệm 26/3</title>
 
 <style>
-
 body{
     margin:0;
     font-family: Arial, sans-serif;
@@ -21,48 +20,17 @@ body{
     box-shadow:0 0 15px rgba(0,0,0,0.2); /* đổ bóng */
 }
 
-/* phần đầu */
-.header{
-    display:flex;
-    align-items:center;
-}
-
-.left{
-    width:40%;
-}
-
-.left img{
-    width:100%;
-        background:#f6e27a;
-}
-
-.right{
-    width:60%;
+/* logo trên cùng */
+.im{
     text-align:center;
 }
 
-/* tiêu đề */
-.title{
-    color:red;
-    font-size:28px;
-    font-weight:bold;
+.im img{
+    width:750px;
 }
 
-.date{
-    color:blue;
-    font-size:20px;
-    margin-top:5px;
-    font-weight: bold;
-}
-
-.text{
-    margin-top:20px;
-    font-size:18px;
-    color:#c0392b;
-    line-height:1.6;
-    font-weight:bold;
-}
-    .marquee{
+/* chữ chạy */
+.marquee{
     width:100%;
     overflow:hidden;
     border:1px solid #ccc;
@@ -87,28 +55,59 @@ body{
         transform:translateX(-100%);
     }
 }
-.im{
+
+/* phần đầu */
+.header{
+    display:flex;
+    align-items:center;
+    margin-top:20px;
+}
+
+.left{
+    width:40%;
+}
+
+.left img{
+    width:100%;
+}
+
+.right{
+    width:60%;
     text-align:center;
 }
-.footer{
-    width:100%;
-    margin-top:20px;
-    height: auto;
+
+/* tiêu đề */
+.title{
+    color:red;
+    font-size:28px;
+    font-weight:bold;
 }
 
-.footer img{
-    width:100%;
-    height:auto;
-    display:block;
+.date{
+    color:blue;
+    font-size:20px;
+    margin-top:5px;
+    font-weight:bold;
 }
-.l{
-    font-weight: bold;
-    text-align: center;
-     font-size:18px;
+
+.text{
+    margin-top:20px;
+    font-size:18px;
     color:#c0392b;
     line-height:1.6;
-
+    font-weight:bold;
 }
+
+.l{
+    font-weight:bold;
+    text-align:center;
+    font-size:18px;
+    color:#c0392b;
+    line-height:1.6;
+}
+
+.img{
+/* ảnh dưới */
     margin-top:20px;
 }
 
