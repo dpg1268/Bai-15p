@@ -11,7 +11,7 @@ body{
 
 /* khung chính */
 .container{
-    width:1500px;
+    width:1550px;
     margin:auto;
     padding:40px 40px 20px 40px;
     border:4px solid red;        /* viền khung */
