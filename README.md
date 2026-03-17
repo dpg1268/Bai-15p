@@ -14,7 +14,11 @@ body{
 .container{
     width:1500px;
     margin:auto;
-    padding:40px 40px 0 40px; /* bỏ khoảng cách phía dưới */
+    padding:40px 40px 20px 40px;
+    border:4px solid red;        /* viền khung */
+    border-radius:10px;          /* bo góc */
+    background:#fff8c6;          /* nền bên trong */
+    box-shadow:0 0 15px rgba(0,0,0,0.2); /* đổ bóng */
 }
 
 /* phần đầu */
